@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoFrame</title>
+    <style>
+        .photo img{
+            width: 80%;
+        }
+        .photo-frame{
+            width: 250px;
+            height: 250px;
+            border-radius: 5px;
+            margin: 5px;
+            position: relative;
+            border: 2px solid rosybrown;
+            overflow: hidden;
+        }
+        .photo-detail{
+            display: none;
+            position: absolute;
+            top: 0px;
+        }
+        .photo-frame:hover .photo-detail{
+            display: block;
+            height: 200px;
+            width: 250px;
+            background-color: rgba(224, 235, 235, 0.5);
+            
+        }
+        .photo-frame:hover .photo{
+            transform: scale(1.5);
+            transition: transform 2s ease-in-out;
+        }
+        .photo-detail h3{
+            background-color: lightpink;
+            text-align: center;
+        }
+        .photo-detail p{
+            color: blue;
+        }
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+    footer{
+        background-color: rosybrown;
+        margin: 0px;
+    }
+        .foot{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .foot p{
+            color: rgb(224, 19, 53);
+            font-size: 20px;
+        }
+        footer h2{
+            font-size: 30px;
+            font-family: cursive;
+
+        }
+        .foot-2 li{
+            list-style: none;
+            font-weight: 700;
+            color: rgb(2, 1, 14);
+            padding-left: 0px;
+        }
+        .foot-1{
+            width: 400px;
+        }
+        .foot-2{
+            width: 400px;
+        }
+
+    </style>
+</head>
+<body>
+<h2>This is a Photo Frame</h2>
+<div class="photo-album">
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    <div class="photo-frame">
+        
+        <div class="photo">
+            <img src="images/rose.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Beautiful rose</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi qui repellendus aspernatur praesentium impedit repellat. Facilis esse suscipit, accusantium doloribus similique, ut, ratione est animi vel nesciunt enim! Eos.</p>
+        </div>
+    </div>
+    
+</div>
+<footer>
+    <h2>Try to collect more flowers</h2>
+    <div class="foot">
+        <div class="foot-1">
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nemo tempora vel molestiae ratione aliquid quisquam, quis sit possimus perspiciatis voluptatum accusamus consectetur eius. Necessitatibus totam itaque commodi possimus quisquam.</P>
+    </div>
+    <div class="foot-2">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus modi ex repellendus inventore. Dolorem perspiciatis, facere fugit dolorum odio voluptates vitae ducimus delectus officiis? Unde expedita quam at nemo sequi?</p>
+        <ul>
+            <li>link-1</li>
+            <li>link-2</li>
+            <li>link-3</li>
+            <li>link-4</li>
+        </ul>
+    </div>
+</div>
+</footer>
+</body>
+</html>

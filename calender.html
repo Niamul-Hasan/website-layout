@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my calender</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            grid-template-rows: 2em repeat(5,1fr);
+            grid-gap:10px;
+            height: 500px;
+            width: 500px;
+        }
+        .grid ,.day{
+            background-color: mediumseagreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3em;
+            border-radius: 10px;
+        }
+        /* .grid-container:nth-col (7n-1){
+            background-color: red;
+
+        } */
+        .other{
+            background-color: mediumturquoise;
+        }
+        .day{
+            font-size: 1.5em;
+        }
+
+    </style>
+</head>
+<body>
+<h2>This is a nice Calender</h2>
+<div class="grid-container">
+    <div class="day other">Sun</div>
+    <div class="day other">Mon</div>
+    <div class="day other">Tus</div>
+    <div class="day other">Wed</div>
+    <div class="day other">Thu</div>
+    <div class="day other">Fri</div>
+    <div class="day other">Sat</div>
+    <div class="grid other">30</div>
+    <div class="grid other">31</div>
+    <div class="grid">1</div>
+    <div class="grid">2</div>
+    <div class="grid">3</div>
+    <div class="grid">4</div>
+    <div class="grid">5</div>
+    <div class="grid">6</div>
+    <div class="grid">7</div>
+    <div class="grid">8</div>
+    <div class="grid">9</div>
+    <div class="grid">10</div>
+    <div class="grid">11</div>
+    <div class="grid">12</div>
+    <div class="grid">13</div>
+    <div class="grid">14</div>
+    <div class="grid">15</div>
+    <div class="grid">16</div>
+    <div class="grid">17</div>
+    <div class="grid">18</div>
+    <div class="grid">19</div>
+    <div class="grid">20</div>
+    <div class="grid">21</div>
+    <div class="grid">22</div>
+    <div class="grid">23</div>
+    <div class="grid">24</div>
+    <div class="grid">25</div>
+    <div class="grid">26</div>
+    <div class="grid">27</div>
+    <div class="grid">28</div>
+    <div class="grid">29</div>
+    <div class="grid">30</div>
+    <div class="grid other">1</div>
+    <div class="grid other">2</div>
+    <div class="grid other">3</div>
+ 
+</div>
+</body>
+</html>
